@@ -1,0 +1,20 @@
+
+body{text-align:center;margin:0 auto;}
+    .greybox{background:#e1e1e1;  border:solid 1px yellow;}
+    .bluebox{background:blue; border:solid 1px white;}
+	.redbox{background:red; border:solid 1px black;}
+	.whitebox{background:white; border:solid 1px black;}
+div {border:inherit;background:transparent;margin:5px;}
+
+h3{text-align: left;}
+p{text-align: left;}
+
+#top {}
+#middle{}
+#bottom{}
+
+#mid_row1_col1{float:left;}
+#mid_row1_col2{float:left;}
+#mid_row1_col3{float:right;}
+
+.clear{clear:both;border:none;height:1px;margin:0;padding:0}

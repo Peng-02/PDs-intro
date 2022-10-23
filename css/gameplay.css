@@ -1,0 +1,105 @@
+
+    	body{text-align:center;margin:0 auto;}
+		    .greybox{background:#e1e1e1;  border:solid 1px yellow;}
+		    .bluebox{background:blue; border:solid 1px white;}
+	    	.redbox{background:red; border:solid 1px black;}
+	    	.whitebox{background:white; border:solid 1px black;}
+	    	.yellowbox{background:yellow; border:solid 1px black;}
+	    div {border:inherit;background:transparent;margin:5px;}
+
+	    img{
+	    	position:absolute;
+  			left:1000px;
+  			top:59px;
+	    }
+
+	    p{text-align: left;}
+
+		#top {}
+    	#middle{}
+    	#bottom{}
+
+    	#mid_row1_col1{float:left;}
+    	#mid_row1_col2{float:left;}
+    	#mid_row1_col3{float:right;}
+
+    	.clear{clear:both;border:none;height:1px;margin:0;padding:0}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+  font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+
+
+/* 清除浮动 */
+.ks-clear:after, .clear:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.ks-clear, .clear {
+  *zoom: 1;
+}
+
+.main {padding: 30px 100px;}
+.main h1{font-size:36px; color:#333; text-align:left;margin-bottom:30px; border-bottom: 1px solid #eee;}
+
+
+
+.icon_lists li{
+  float:left;
+  width: 100px;
+  height:150px;
+  text-align: center;
+}
+
+.icon_lists .icon{
+  font-size: 42px;
+  line-height: 100px;
+  margin: 10px 0;
+  color:#333;
+  -webkit-transition: font-size 0.25s ease-out 0s;
+  -moz-transition: font-size 0.25s ease-out 0s;
+  transition: font-size 0.25s ease-out 0s;
+}
+
+.icon_lists .icon:hover{
+  font-size: 100px;
+}
+
+@font-face {
+  font-family: "webfont";
+  font-display: swap;
+  src: url('../font/Gameplay/webfont_6xth42iil3h/webfont.eot'); /* IE9 */
+  src: url('../font/Gameplay/webfont_6xth42iil3h/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/Gameplay/webfont_6xth42iil3h/webfont.woff2') format('woff2'),
+  url('../font/Gameplay/webfont_6xth42iil3h/webfont.woff') format('woff'), /* chrome、firefox */
+  url('../font/Gameplay/webfont_6xth42iil3h/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../font/Gameplay/webfont_6xth42iil3h/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
+.web-font {
+  font-family: "webfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+    	
